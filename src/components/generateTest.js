@@ -7,9 +7,8 @@ function generateTest(testSize) {
     let wpmTest = [];
     //temporarily using 0-8 until wordlist.js is complete
     for (let i = 0; i<(testSize-1); i++) {
-        
+        wpmTest[i] = wordlist[randomNumber(0, 8)];
     }
-    wpmTest = randomNumber(0, 8)
     return wpmTest;
 }
 
