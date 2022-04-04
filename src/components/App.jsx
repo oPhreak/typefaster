@@ -4,7 +4,9 @@ import Overlay from './Overlay';
 import './styles/App.css';
 
 function App(props) {
-    return;
+    return(
+        <Overlay />
+    );
 }
 
 export default App;
